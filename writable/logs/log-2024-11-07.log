@@ -1,0 +1,75 @@
+CRITICAL - 2024-11-07 05:38:57 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "pagina/menu.php"
+[Method: GET, Route: pagina]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pagina/menu.php')
+ 2 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('pagina/menu', [], true)
+ 3 APPPATH\Controllers\ProductoController.php(18): view('pagina/menu')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ProductoController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductoController))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\PanaderiaWeb\\public\\index.php')
+CRITICAL - 2024-11-07 05:39:56 --> ErrorException: Undefined property: stdClass::$nombre
+[Method: GET, Route: pagina]
+in APPPATH\Views\pagina\listaProductos.php on line 5.
+ 1 APPPATH\Views\pagina\listaProductos.php(5): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$nombre', 'C:\\xampp\\htdocs\\PanaderiaWeb\\app\\Views\\pagina\\listaProductos.php', 5)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\PanaderiaWeb\\app\\Views\\pagina\\listaProductos.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('pagina/listaProductos', [], true)
+ 5 APPPATH\Controllers\ProductoController.php(19): view('pagina/listaProductos', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ProductoController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductoController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\PanaderiaWeb\\public\\index.php')
+CRITICAL - 2024-11-07 05:50:28 --> ErrorException: Undefined property: stdClass::$nombre
+[Method: GET, Route: pagina/producto/8]
+in APPPATH\Views\pagina\detalleProducto.php on line 13.
+ 1 APPPATH\Views\pagina\detalleProducto.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$nombre', 'C:\\xampp\\htdocs\\PanaderiaWeb\\app\\Views\\pagina\\detalleProducto.php', 13)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\PanaderiaWeb\\app\\Views\\pagina\\detalleProducto.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('pagina/detalleProducto', [], true)
+ 5 APPPATH\Controllers\ProductoController.php(37): view('pagina/detalleProducto', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ProductoController->producto('8')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductoController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\PanaderiaWeb\\public\\index.php')
+CRITICAL - 2024-11-07 05:50:33 --> ErrorException: Undefined property: stdClass::$nombre
+[Method: GET, Route: pagina/producto/7]
+in APPPATH\Views\pagina\detalleProducto.php on line 13.
+ 1 APPPATH\Views\pagina\detalleProducto.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$nombre', 'C:\\xampp\\htdocs\\PanaderiaWeb\\app\\Views\\pagina\\detalleProducto.php', 13)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\PanaderiaWeb\\app\\Views\\pagina\\detalleProducto.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('pagina/detalleProducto', [], true)
+ 5 APPPATH\Controllers\ProductoController.php(37): view('pagina/detalleProducto', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ProductoController->producto('7')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductoController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\PanaderiaWeb\\public\\index.php')
+CRITICAL - 2024-11-07 05:50:58 --> ErrorException: Undefined property: stdClass::$nombre
+[Method: GET, Route: pagina/producto/7]
+in APPPATH\Views\pagina\detalleProducto.php on line 13.
+ 1 APPPATH\Views\pagina\detalleProducto.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$nombre', 'C:\\xampp\\htdocs\\PanaderiaWeb\\app\\Views\\pagina\\detalleProducto.php', 13)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\PanaderiaWeb\\app\\Views\\pagina\\detalleProducto.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('pagina/detalleProducto', [], true)
+ 5 APPPATH\Controllers\ProductoController.php(37): view('pagina/detalleProducto', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ProductoController->producto('7')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductoController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\PanaderiaWeb\\public\\index.php')
+INFO - 2024-11-07 05:57:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-07 06:00:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

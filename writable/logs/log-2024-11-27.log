@@ -1,0 +1,461 @@
+INFO - 2024-11-27 05:54:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-27 05:54:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-27 05:55:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-27 05:56:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-11-27 05:56:37 --> ErrorException: Undefined variable $locales
+[Method: GET, Route: productos-por-local]
+in APPPATH\Views\local\mostrarlocales.php on line 235.
+ 1 APPPATH\Views\local\mostrarlocales.php(235): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $locales', 'C:\\xampp\\htdocs\\PanaderiaWeb\\app\\Views\\local\\mostrarlocales.php', 235)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\PanaderiaWeb\\app\\Views\\local\\mostrarlocales.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('local/mostrarlocales', [], true)
+ 5 APPPATH\Controllers\Locales.php(111): view('local/mostrarlocales', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Locales->productosPorLocal()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Locales))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\PanaderiaWeb\\public\\index.php')
+INFO - 2024-11-27 05:58:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-11-27 05:58:40 --> ErrorException: Undefined variable $locales
+[Method: GET, Route: productos-por-local]
+in APPPATH\Views\local\mostrarlocales.php on line 235.
+ 1 APPPATH\Views\local\mostrarlocales.php(235): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $locales', 'C:\\xampp\\htdocs\\PanaderiaWeb\\app\\Views\\local\\mostrarlocales.php', 235)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\PanaderiaWeb\\app\\Views\\local\\mostrarlocales.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('local/mostrarlocales', [], true)
+ 5 APPPATH\Controllers\Locales.php(111): view('local/mostrarlocales', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Locales->productosPorLocal()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Locales))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\PanaderiaWeb\\public\\index.php')
+INFO - 2024-11-27 05:58:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-11-27 05:58:46 --> ErrorException: Undefined variable $locales
+[Method: GET, Route: productos-por-local]
+in APPPATH\Views\local\mostrarlocales.php on line 235.
+ 1 APPPATH\Views\local\mostrarlocales.php(235): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $locales', 'C:\\xampp\\htdocs\\PanaderiaWeb\\app\\Views\\local\\mostrarlocales.php', 235)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\PanaderiaWeb\\app\\Views\\local\\mostrarlocales.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('local/mostrarlocales', [], true)
+ 5 APPPATH\Controllers\Locales.php(111): view('local/mostrarlocales', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Locales->productosPorLocal()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Locales))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\PanaderiaWeb\\public\\index.php')
+INFO - 2024-11-27 05:58:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-11-27 05:58:46 --> ErrorException: Undefined variable $locales
+[Method: GET, Route: productos-por-local]
+in APPPATH\Views\local\mostrarlocales.php on line 235.
+ 1 APPPATH\Views\local\mostrarlocales.php(235): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $locales', 'C:\\xampp\\htdocs\\PanaderiaWeb\\app\\Views\\local\\mostrarlocales.php', 235)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\PanaderiaWeb\\app\\Views\\local\\mostrarlocales.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('local/mostrarlocales', [], true)
+ 5 APPPATH\Controllers\Locales.php(111): view('local/mostrarlocales', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Locales->productosPorLocal()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Locales))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\PanaderiaWeb\\public\\index.php')
+INFO - 2024-11-27 05:58:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-11-27 05:58:47 --> ErrorException: Undefined variable $locales
+[Method: GET, Route: productos-por-local]
+in APPPATH\Views\local\mostrarlocales.php on line 235.
+ 1 APPPATH\Views\local\mostrarlocales.php(235): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $locales', 'C:\\xampp\\htdocs\\PanaderiaWeb\\app\\Views\\local\\mostrarlocales.php', 235)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\PanaderiaWeb\\app\\Views\\local\\mostrarlocales.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('local/mostrarlocales', [], true)
+ 5 APPPATH\Controllers\Locales.php(111): view('local/mostrarlocales', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Locales->productosPorLocal()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Locales))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\PanaderiaWeb\\public\\index.php')
+INFO - 2024-11-27 05:58:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-11-27 05:58:49 --> ErrorException: Undefined variable $locales
+[Method: GET, Route: productos-por-local]
+in APPPATH\Views\local\mostrarlocales.php on line 235.
+ 1 APPPATH\Views\local\mostrarlocales.php(235): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $locales', 'C:\\xampp\\htdocs\\PanaderiaWeb\\app\\Views\\local\\mostrarlocales.php', 235)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\PanaderiaWeb\\app\\Views\\local\\mostrarlocales.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('local/mostrarlocales', [], true)
+ 5 APPPATH\Controllers\Locales.php(111): view('local/mostrarlocales', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Locales->productosPorLocal()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Locales))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\PanaderiaWeb\\public\\index.php')
+INFO - 2024-11-27 05:58:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-11-27 05:58:50 --> ErrorException: Undefined variable $locales
+[Method: GET, Route: productos-por-local]
+in APPPATH\Views\local\mostrarlocales.php on line 235.
+ 1 APPPATH\Views\local\mostrarlocales.php(235): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $locales', 'C:\\xampp\\htdocs\\PanaderiaWeb\\app\\Views\\local\\mostrarlocales.php', 235)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\PanaderiaWeb\\app\\Views\\local\\mostrarlocales.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('local/mostrarlocales', [], true)
+ 5 APPPATH\Controllers\Locales.php(111): view('local/mostrarlocales', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Locales->productosPorLocal()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Locales))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\PanaderiaWeb\\public\\index.php')
+INFO - 2024-11-27 05:58:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-11-27 05:58:50 --> ErrorException: Undefined variable $locales
+[Method: GET, Route: productos-por-local]
+in APPPATH\Views\local\mostrarlocales.php on line 235.
+ 1 APPPATH\Views\local\mostrarlocales.php(235): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $locales', 'C:\\xampp\\htdocs\\PanaderiaWeb\\app\\Views\\local\\mostrarlocales.php', 235)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\PanaderiaWeb\\app\\Views\\local\\mostrarlocales.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('local/mostrarlocales', [], true)
+ 5 APPPATH\Controllers\Locales.php(111): view('local/mostrarlocales', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Locales->productosPorLocal()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Locales))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\PanaderiaWeb\\public\\index.php')
+INFO - 2024-11-27 05:58:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-11-27 05:58:51 --> ErrorException: Undefined variable $locales
+[Method: GET, Route: productos-por-local]
+in APPPATH\Views\local\mostrarlocales.php on line 235.
+ 1 APPPATH\Views\local\mostrarlocales.php(235): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $locales', 'C:\\xampp\\htdocs\\PanaderiaWeb\\app\\Views\\local\\mostrarlocales.php', 235)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\PanaderiaWeb\\app\\Views\\local\\mostrarlocales.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('local/mostrarlocales', [], true)
+ 5 APPPATH\Controllers\Locales.php(111): view('local/mostrarlocales', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Locales->productosPorLocal()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Locales))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\PanaderiaWeb\\public\\index.php')
+INFO - 2024-11-27 05:58:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-11-27 05:58:51 --> ErrorException: Undefined variable $locales
+[Method: GET, Route: productos-por-local]
+in APPPATH\Views\local\mostrarlocales.php on line 235.
+ 1 APPPATH\Views\local\mostrarlocales.php(235): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $locales', 'C:\\xampp\\htdocs\\PanaderiaWeb\\app\\Views\\local\\mostrarlocales.php', 235)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\PanaderiaWeb\\app\\Views\\local\\mostrarlocales.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('local/mostrarlocales', [], true)
+ 5 APPPATH\Controllers\Locales.php(111): view('local/mostrarlocales', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Locales->productosPorLocal()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Locales))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\PanaderiaWeb\\public\\index.php')
+INFO - 2024-11-27 05:58:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-11-27 05:58:52 --> ErrorException: Undefined variable $locales
+[Method: GET, Route: productos-por-local]
+in APPPATH\Views\local\mostrarlocales.php on line 235.
+ 1 APPPATH\Views\local\mostrarlocales.php(235): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $locales', 'C:\\xampp\\htdocs\\PanaderiaWeb\\app\\Views\\local\\mostrarlocales.php', 235)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\PanaderiaWeb\\app\\Views\\local\\mostrarlocales.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('local/mostrarlocales', [], true)
+ 5 APPPATH\Controllers\Locales.php(111): view('local/mostrarlocales', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Locales->productosPorLocal()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Locales))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\PanaderiaWeb\\public\\index.php')
+INFO - 2024-11-27 06:02:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-11-27 06:02:05 --> ErrorException: Undefined variable $producto
+[Method: GET, Route: productos-por-local]
+in APPPATH\Views\producto\show.php on line 19.
+ 1 APPPATH\Views\producto\show.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $producto', 'C:\\xampp\\htdocs\\PanaderiaWeb\\app\\Views\\producto\\show.php', 19)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\PanaderiaWeb\\app\\Views\\producto\\show.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('producto/show', [], true)
+ 5 APPPATH\Controllers\Locales.php(115): view('producto/show', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Locales->productosPorLocal()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Locales))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\PanaderiaWeb\\public\\index.php')
+INFO - 2024-11-27 06:02:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-11-27 06:02:21 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "productos/mostrar.php"
+[Method: GET, Route: productos-por-local]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('productos/mostrar.php')
+ 2 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('productos/mostrar', [], true)
+ 3 APPPATH\Controllers\Locales.php(115): view('productos/mostrar', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Locales->productosPorLocal()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Locales))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\PanaderiaWeb\\public\\index.php')
+INFO - 2024-11-27 06:02:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-11-27 06:02:22 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "productos/mostrar.php"
+[Method: GET, Route: productos-por-local]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('productos/mostrar.php')
+ 2 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('productos/mostrar', [], true)
+ 3 APPPATH\Controllers\Locales.php(115): view('productos/mostrar', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Locales->productosPorLocal()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Locales))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\PanaderiaWeb\\public\\index.php')
+INFO - 2024-11-27 06:08:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-11-27 06:08:46 --> ErrorException: Undefined variable $producto
+[Method: GET, Route: productos-por-local]
+in APPPATH\Views\producto\show.php on line 19.
+ 1 APPPATH\Views\producto\show.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $producto', 'C:\\xampp\\htdocs\\PanaderiaWeb\\app\\Views\\producto\\show.php', 19)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\PanaderiaWeb\\app\\Views\\producto\\show.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('producto/show', [], true)
+ 5 APPPATH\Controllers\Locales.php(115): view('producto/show', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Locales->productosPorLocal()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Locales))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\PanaderiaWeb\\public\\index.php')
+INFO - 2024-11-27 06:14:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-27 06:20:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-11-27 06:20:00 --> ErrorException: Undefined variable $producto
+[Method: GET, Route: productos-por-local]
+in APPPATH\Views\producto\show.php on line 19.
+ 1 APPPATH\Views\producto\show.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $producto', 'C:\\xampp\\htdocs\\PanaderiaWeb\\app\\Views\\producto\\show.php', 19)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\PanaderiaWeb\\app\\Views\\producto\\show.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('producto/show', [], true)
+ 5 APPPATH\Controllers\Locales.php(115): view('producto/show', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Locales->productosPorLocal()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Locales))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\PanaderiaWeb\\public\\index.php')
+INFO - 2024-11-27 06:23:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-11-27 06:23:29 --> ErrorException: Undefined variable $producto
+[Method: GET, Route: productos-por-local]
+in APPPATH\Views\producto\show.php on line 19.
+ 1 APPPATH\Views\producto\show.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $producto', 'C:\\xampp\\htdocs\\PanaderiaWeb\\app\\Views\\producto\\show.php', 19)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\PanaderiaWeb\\app\\Views\\producto\\show.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('producto/show', [], true)
+ 5 APPPATH\Controllers\Locales.php(115): view('producto/show', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Locales->productosPorLocal()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Locales))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\PanaderiaWeb\\public\\index.php')
+INFO - 2024-11-27 06:23:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-11-27 06:23:30 --> ErrorException: Undefined variable $producto
+[Method: GET, Route: productos-por-local]
+in APPPATH\Views\producto\show.php on line 19.
+ 1 APPPATH\Views\producto\show.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $producto', 'C:\\xampp\\htdocs\\PanaderiaWeb\\app\\Views\\producto\\show.php', 19)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\PanaderiaWeb\\app\\Views\\producto\\show.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('producto/show', [], true)
+ 5 APPPATH\Controllers\Locales.php(115): view('producto/show', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Locales->productosPorLocal()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Locales))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\PanaderiaWeb\\public\\index.php')
+INFO - 2024-11-27 06:24:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-11-27 06:24:07 --> ErrorException: Undefined variable $producto
+[Method: GET, Route: productos-por-local]
+in APPPATH\Views\producto\show.php on line 19.
+ 1 APPPATH\Views\producto\show.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $producto', 'C:\\xampp\\htdocs\\PanaderiaWeb\\app\\Views\\producto\\show.php', 19)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\PanaderiaWeb\\app\\Views\\producto\\show.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('producto/show', [], true)
+ 5 APPPATH\Controllers\Locales.php(115): view('producto/show', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Locales->productosPorLocal()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Locales))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\PanaderiaWeb\\public\\index.php')
+INFO - 2024-11-27 06:24:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-11-27 06:24:52 --> ErrorException: Undefined variable $producto
+[Method: GET, Route: productos-por-local]
+in APPPATH\Views\producto\show.php on line 19.
+ 1 APPPATH\Views\producto\show.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $producto', 'C:\\xampp\\htdocs\\PanaderiaWeb\\app\\Views\\producto\\show.php', 19)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\PanaderiaWeb\\app\\Views\\producto\\show.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('producto/show', [], true)
+ 5 APPPATH\Controllers\Locales.php(115): view('producto/show', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Locales->productosPorLocal()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Locales))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\PanaderiaWeb\\public\\index.php')
+INFO - 2024-11-27 06:25:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-11-27 06:25:03 --> ErrorException: Undefined variable $producto
+[Method: GET, Route: productos-por-local]
+in APPPATH\Views\producto\show.php on line 19.
+ 1 APPPATH\Views\producto\show.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $producto', 'C:\\xampp\\htdocs\\PanaderiaWeb\\app\\Views\\producto\\show.php', 19)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\PanaderiaWeb\\app\\Views\\producto\\show.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('producto/show', [], true)
+ 5 APPPATH\Controllers\Locales.php(115): view('producto/show', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Locales->productosPorLocal()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Locales))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\PanaderiaWeb\\public\\index.php')
+INFO - 2024-11-27 06:25:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-11-27 06:25:19 --> ParseError: syntax error, unexpected token "endforeach", expecting end of file
+[Method: GET, Route: productos-por-local]
+in APPPATH\Views\producto\show.php on line 64.
+ 1 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('producto/show', [], true)
+ 3 APPPATH\Controllers\Locales.php(115): view('producto/show', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Locales->productosPorLocal()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Locales))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\PanaderiaWeb\\public\\index.php')
+INFO - 2024-11-27 06:25:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-11-27 06:25:28 --> ErrorException: Undefined variable $producto
+[Method: GET, Route: productos-por-local]
+in APPPATH\Views\producto\show.php on line 19.
+ 1 APPPATH\Views\producto\show.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $producto', 'C:\\xampp\\htdocs\\PanaderiaWeb\\app\\Views\\producto\\show.php', 19)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\PanaderiaWeb\\app\\Views\\producto\\show.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('producto/show', [], true)
+ 5 APPPATH\Controllers\Locales.php(115): view('producto/show', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Locales->productosPorLocal()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Locales))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\PanaderiaWeb\\public\\index.php')
+INFO - 2024-11-27 06:29:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-11-27 06:29:24 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "producto/showProductos.php"
+[Method: GET, Route: productos-por-local]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('producto/showProductos.php')
+ 2 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('producto/showProductos', [], true)
+ 3 APPPATH\Controllers\Locales.php(115): view('producto/showProductos', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Locales->productosPorLocal()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Locales))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\PanaderiaWeb\\public\\index.php')
+INFO - 2024-11-27 06:29:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-11-27 06:29:55 --> ErrorException: Undefined variable $local
+[Method: GET, Route: productos-por-local]
+in APPPATH\Views\local\showProductos.php on line 6.
+ 1 APPPATH\Views\local\showProductos.php(6): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $local', 'C:\\xampp\\htdocs\\PanaderiaWeb\\app\\Views\\local\\showProductos.php', 6)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\PanaderiaWeb\\app\\Views\\local\\showProductos.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('local/showProductos', [], true)
+ 5 APPPATH\Controllers\Locales.php(115): view('local/showProductos', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Locales->productosPorLocal()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Locales))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\PanaderiaWeb\\public\\index.php')
+INFO - 2024-11-27 06:31:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-11-27 06:31:56 --> ErrorException: Undefined variable $local
+[Method: GET, Route: productos-por-local]
+in APPPATH\Views\producto\showProductos.php on line 6.
+ 1 APPPATH\Views\producto\showProductos.php(6): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $local', 'C:\\xampp\\htdocs\\PanaderiaWeb\\app\\Views\\producto\\showProductos.php', 6)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\PanaderiaWeb\\app\\Views\\producto\\showProductos.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('producto/showProductos', [], true)
+ 5 APPPATH\Controllers\Locales.php(115): view('producto/showProductos', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Locales->productosPorLocal()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Locales))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\PanaderiaWeb\\public\\index.php')
+INFO - 2024-11-27 06:31:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-11-27 06:31:58 --> ErrorException: Undefined variable $local
+[Method: GET, Route: productos-por-local]
+in APPPATH\Views\producto\showProductos.php on line 6.
+ 1 APPPATH\Views\producto\showProductos.php(6): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $local', 'C:\\xampp\\htdocs\\PanaderiaWeb\\app\\Views\\producto\\showProductos.php', 6)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\PanaderiaWeb\\app\\Views\\producto\\showProductos.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('producto/showProductos', [], true)
+ 5 APPPATH\Controllers\Locales.php(115): view('producto/showProductos', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Locales->productosPorLocal()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Locales))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\PanaderiaWeb\\public\\index.php')
+INFO - 2024-11-27 06:31:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-11-27 06:31:58 --> ErrorException: Undefined variable $local
+[Method: GET, Route: productos-por-local]
+in APPPATH\Views\producto\showProductos.php on line 6.
+ 1 APPPATH\Views\producto\showProductos.php(6): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $local', 'C:\\xampp\\htdocs\\PanaderiaWeb\\app\\Views\\producto\\showProductos.php', 6)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\PanaderiaWeb\\app\\Views\\producto\\showProductos.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('producto/showProductos', [], true)
+ 5 APPPATH\Controllers\Locales.php(115): view('producto/showProductos', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Locales->productosPorLocal()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Locales))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\PanaderiaWeb\\public\\index.php')
+INFO - 2024-11-27 06:32:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-27 06:32:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-11-27 06:32:05 --> ErrorException: Undefined variable $local
+[Method: GET, Route: productos-por-local]
+in APPPATH\Views\producto\showProductos.php on line 6.
+ 1 APPPATH\Views\producto\showProductos.php(6): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $local', 'C:\\xampp\\htdocs\\PanaderiaWeb\\app\\Views\\producto\\showProductos.php', 6)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\PanaderiaWeb\\app\\Views\\producto\\showProductos.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('producto/showProductos', [], true)
+ 5 APPPATH\Controllers\Locales.php(115): view('producto/showProductos', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Locales->productosPorLocal()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Locales))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\PanaderiaWeb\\public\\index.php')
